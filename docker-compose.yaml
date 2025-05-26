@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  daily-quote-app:
+    build: ./
+    ports:
+      - "8000:80"
+    container_name: daily-quote-app
